@@ -7,7 +7,7 @@ header, .jumbotrone, main, footer{
 }
 
 .box-jumbo{
-    height: 200px;
+    height: 300px;
 }
 
 .box-titolo{
@@ -16,9 +16,13 @@ header, .jumbotrone, main, footer{
     margin-bottom: 5px;
 }
 
+.margini{
+    margin: 10px 5%;
+}
+
 .box-img{
-    height: 150px;
-    margin-top: 5px;
+    height: 200px;
+    border: 5px solid white;
 }
 
 .box-paragrafi{
@@ -33,6 +37,7 @@ header, .jumbotrone, main, footer{
 
 .box-footer{
     height: 200px;
-    margin-top: 50px;
+    margin-top: 5px;
     margin-bottom: 5px;
+    border: 5px solid white;
 }
