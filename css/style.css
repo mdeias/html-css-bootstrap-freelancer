@@ -1,2 +1,38 @@
+header, .jumbotrone, main, footer{
+    margin: 20px;
+}
 
+.box-header{
+    height: 30px;
+}
 
+.box-jumbo{
+    height: 200px;
+}
+
+.box-titolo{
+    height: 100px;
+    margin-top: 85px;
+    margin-bottom: 5px;
+}
+
+.box-img{
+    height: 150px;
+    margin-top: 5px;
+}
+
+.box-paragrafi{
+    height: 300px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.box-lista{
+    margin-top: 5px;
+}
+
+.box-footer{
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
