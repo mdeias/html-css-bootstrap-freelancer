@@ -1,17 +1,32 @@
-header, .jumbotrone, main, footer{
-    margin: 20px;
+header{
+    height: 80px;
+    background-color: #2C3D50;
+    color: white;
+    padding-top: 25px;
 }
 
-.box-header{
-    height: 30px;
+
+
+.mt-container{
+    width: 80%;
+    margin: 0 auto;
 }
 
-.box-jumbo{
-    height: 300px;
+.mt-jumbotrone{
+    background-color: #1ABC9A;
+    text-align: center;
+    color: white;
+    height: 400px;
 }
+
+.mt-jumbotrone img{
+    width: 120px;
+}
+
 
 .box-titolo{
-    height: 100px;
+    text-align: center;
+    color: black;
     margin-top: 85px;
     margin-bottom: 5px;
 }
@@ -21,12 +36,25 @@ header, .jumbotrone, main, footer{
 }
 
 .box-img{
-    height: 200px;
-    border: 5px solid white;
+    margin-bottom: 10px; 
 }
 
+.box-img img{
+    width: 100%;
+}
+
+.box-btn{
+    text-align: center;
+}
+
+.about{
+    background-color: #1ABC9A;
+    color: white;
+}
+.box-about{
+    text-align: center;
+}
 .box-paragrafi{
-    height: 300px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -35,9 +63,26 @@ header, .jumbotrone, main, footer{
     margin-top: 5px;
 }
 
+.box-copy{
+    padding-top: 25px;
+    text-align: center;
+    color: white;
+}
+
+.top-footer{
+    background-color: #39546C;
+    color: white;
+    text-align: center;
+}
+
 .box-footer{
     height: 200px;
     margin-top: 5px;
     margin-bottom: 5px;
-    border: 5px solid white;
+    
+}
+
+.bottom-footer{
+    height: 80px;
+    background-color: #2C3D50;
 }
