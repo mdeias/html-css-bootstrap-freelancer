@@ -6,15 +6,42 @@ header{
 }
 
 .mt-container{
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
+
+.p-container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.f-container{
+    width: 78%;
+    margin: 0 auto;
+}
+
+ul{
+    margin-top: 5px;
+    list-style: none;
+    font-size: 13px;
+}
+
+ul li{
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+li:hover{
+    color: #1ABC9A;
+}
+
 
 .mt-jumbotrone{
     background-color: #1ABC9A;
     text-align: center;
     color: white;
-    padding: 20px;
+    padding: 40px;
 }
 
 .mt-jumbotrone img{
@@ -33,6 +60,7 @@ header{
 
 .box-img img{
     width: 100%;
+    cursor: pointer;
 }
 
 .box-btn{
@@ -50,6 +78,19 @@ header{
 .box-paragrafi{
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+.download{
+    padding: 10px 15px;
+    background-color: #1ABC9A;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+}
+
+.download:hover{
+    background-color: lightgray;
+    color: black;
 }
 
 .contact, .about, .portfolio, footer{
@@ -73,10 +114,25 @@ header{
     border-radius: 5px;
 }
 
+.custom-btn:hover{
+    background-color: lightgray;
+    color: black;
+    border: 1px solid lightgrey;
+}
+
 .box-copy{
-    padding-top: 25px;
+    font-size: 10px;
+    padding-top: 32px;
     text-align: center;
     color: white;
+}
+
+.margin-b{
+    margin-bottom: 0px;
+}
+
+span{
+    color: #1ABC9A;
 }
 
 .top-footer{
@@ -89,4 +145,26 @@ header{
 .bottom-footer{
     height: 80px;
     background-color: #2C3D50;
+}
+
+footer .top-footer .box-footer i{
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 0px 5px;
+}
+
+.fa-facebook-f{
+    padding: 10px 13px;
+}
+
+.fa-google-plus-g{
+    padding: 10px 8px;
+}
+
+.fa-twitter{
+    padding: 10px 10px;
+}
+
+.fa-linkedin-in{
+    padding: 10px 12px;
 }
