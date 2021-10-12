@@ -48,6 +48,34 @@ li:hover{
     width: 120px;
 }
 
+.box-jumbo h1{
+    font-size: 45px;
+    margin-top: 20px;
+}
+
+.linea{
+    font-size: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.linea .dx{
+    width: 10%;
+    height: 4px;
+    border-radius: 3px;
+    background-color: white;
+    border: 1px solid white;
+    margin: 0px 25px;
+}
+
+.linea .black{
+    background-color: #000;
+    border-color: black;
+}
+
 .box-titolo{
     text-align: center;
     color: black;
