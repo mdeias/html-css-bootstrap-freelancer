@@ -5,6 +5,11 @@ header{
     padding-top: 25px;
 }
 
+.fa-bars{
+    border: 1px solid white;
+    padding: 5px;
+}
+
 .mt-container{
     width: 70%;
     margin: 0 auto;
@@ -83,8 +88,32 @@ li:hover{
 }
 
 .box-img{
+    position: relative;
     margin-bottom: 10px; 
 }
+
+.layover-img{
+    
+    position: absolute;
+    background-color: rgba(0, 200, 100, 0.5);
+    top: 0;
+    left: 0;
+    border-left: 12px solid white;
+    border-right: 12px solid white;
+    font-size: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: -1;  
+}
+
+.portfolio .p-container .row .box-img:hover .layover-img{
+    z-index: 1;
+}
+
 
 .box-img img{
     width: 100%;
