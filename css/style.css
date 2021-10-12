@@ -5,8 +5,6 @@ header{
     padding-top: 25px;
 }
 
-
-
 .mt-container{
     width: 80%;
     margin: 0 auto;
@@ -16,23 +14,17 @@ header{
     background-color: #1ABC9A;
     text-align: center;
     color: white;
-    height: 400px;
+    padding: 20px;
 }
 
 .mt-jumbotrone img{
     width: 120px;
 }
 
-
 .box-titolo{
     text-align: center;
     color: black;
-    margin-top: 85px;
     margin-bottom: 5px;
-}
-
-.margini{
-    margin: 10px 5%;
 }
 
 .box-img{
@@ -48,6 +40,7 @@ header{
 }
 
 .about{
+    padding: 40px;
     background-color: #1ABC9A;
     color: white;
 }
@@ -59,8 +52,25 @@ header{
     margin-bottom: 5px;
 }
 
-.box-lista{
-    margin-top: 5px;
+.contact, .about, .portfolio, footer{
+    margin-top: 40px;
+}
+
+.titolo-contact{
+    text-align: center;
+}
+
+.form-custom{
+    border: none;
+    border-bottom: 1px solid lightgray;
+    border-radius: 0px;
+}
+ 
+.custom-btn{
+    background-color: #1ABC9A;
+    border-color: #1ABC9A;
+    padding: 8px 13px;
+    border-radius: 5px;
 }
 
 .box-copy{
@@ -70,16 +80,10 @@ header{
 }
 
 .top-footer{
+    padding-top: 30px;
     background-color: #39546C;
     color: white;
     text-align: center;
-}
-
-.box-footer{
-    height: 200px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    
 }
 
 .bottom-footer{
