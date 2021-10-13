@@ -46,11 +46,15 @@ li:hover{
     background-color: #1ABC9A;
     text-align: center;
     color: white;
-    padding: 40px;
+    padding: 120px 0px 40px 0px;
 }
 
 .mt-jumbotrone img{
     width: 120px;
+}
+
+.box-jumbo{
+    padding: 0px;
 }
 
 .box-jumbo h1{
